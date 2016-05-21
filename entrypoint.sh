@@ -7,3 +7,5 @@ else
 fi
 
 $LIVY_APP_PATH/bin/livy-server $@
+
+jupyter notebook --no-browser
